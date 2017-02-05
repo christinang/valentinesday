@@ -1,0 +1,21 @@
+<div class="page-header">
+  <h3>I love you because...</h3>
+</div>
+
+<div class="row">
+  <div class="col-md-12 mb-2">
+    <center>
+      <h4><%= @reason.caption %></h4>
+      <p></p>
+      <img src="<%= @reason.photo %>" width=450>
+    </center>
+  </div>
+</div>
+
+<div class="row">
+  <center>
+    <a href="/reasons/<%= @reasons.sample.id %>" class="btn btn-primary">
+      and also because...
+    </a>
+  </center>
+</div>
